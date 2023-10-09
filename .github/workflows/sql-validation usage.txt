@@ -1,0 +1,1 @@
+--everytime a postgresql script file will be pushed to the repository, it will automatically do the code validation for the SQL syntax.
