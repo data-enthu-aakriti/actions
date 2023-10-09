@@ -1,1 +1,1 @@
-select * FROM stg_finance.daas_Table_list  where target_table = 'fdl_ic_po_sot'
+select * FROM daas_Table_list  where target_table = 'fdl_ic_po_sot'
