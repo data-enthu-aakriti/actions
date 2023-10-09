@@ -1,0 +1,20 @@
+name: SQL Code Validation
+on:
+ push:
+  branches:
+   - main
+jobs:
+ lint:
+  runs-on: windows-latest
+  steps:
+   - name: checkout code
+     uses: actions/checkout@v2
+   - name: set up python 3.x
+     uses: actions/setup-python@v2
+     with:
+       python-version: 3.x
+   - name: Install sqlfluff
+     run: pip install sqlfluff
+   - name: Lint SQL code
+     run: sqlfluff lint
+     
