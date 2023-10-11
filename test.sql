@@ -1,1 +1,1 @@
-select abc, def from xyz_t;
+select abc fRom xyz_T;
