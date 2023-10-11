@@ -19,4 +19,4 @@ jobs:
    - name: Lint SQL code
      run: sqlfluff lint --dialect postgres || true
    - name: SQL Fix
-     run: sqlfluff fix
+     run: sqlfluff fix --dialect postgres
