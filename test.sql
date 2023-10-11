@@ -1,1 +1,1 @@
-select abc, def, from xyz;
+select abc, def from xyz;
